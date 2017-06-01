@@ -34,7 +34,7 @@ public class StartView extends VerticalLayout implements View{
 		username.setRequired(true);
 		username.setInputPrompt("UserName");
 		//username.addValidator(new EmailValidator("@email"));
-		
+		System.out.println("Ayesha");
 		PasswordField  password=new PasswordField("Password");
 		password.setRequired(true);
 		password.setInputPrompt("");
